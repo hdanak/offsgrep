@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Usage: offsgrep "...regex..." -o 1 "...regex..." -o -1 "...regex..."
 use strict;
-use warnings;
-use diagnostics;
+#use warnings;
+#use diagnostics;
 
 my $USAGE = "Usage: <regex> -o <offset> <regex> -o ...\n";
 my @constraints = get_constraints(@ARGV) or die;
